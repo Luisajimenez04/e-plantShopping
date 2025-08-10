@@ -2,7 +2,7 @@
   "name": "e-plant-shopping",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Luisajimenez04.github.io/e-plant-shopping",
+  "homepage": "https://Luisajimenez04.github.io/e-plantShopping",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -14,7 +14,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  }
-}
+  },
+  "devDependencies": {
+    "gh-pages": "^5
